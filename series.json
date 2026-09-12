@@ -1,0 +1,84 @@
+{
+    "series": [
+        {
+            "title": "Game of Thrones (Juego de Tronos)",
+            "year": "2011",
+            "rating": "TV-MA",
+            "quality": "4K Ultra HD",
+            "genre": "Fantasía / Drama / Aventura",
+            "tmdb": 1399,
+            "poster": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
+            "description": "Nueve familias nobles luchan por el control de las tierras míticas de Poniente, mientras un antiguo enemigo regresa después de milenios.",
+            "episodes": [
+                {
+                "title": "T1:E1 - Se acerca el invierno",
+                "description": "Ned Stark recibe la propuesta del Rey Robert para convertirse en la Mano del Rey.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+                },
+                {
+                "title": "T1:E2 - El camino real",
+                "description": "Ned abandona Invernalia junto a sus hijas rumbo a Desembarco del Rey.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                },
+                {
+                "title": "T1:E3 - Lord Nieve",
+                "description": "Jon Snow inicia su entrenamiento en el Muro con la Guardia de la Noche.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+                },
+                {
+                "title": "T1:E4 - Tullidos, bastardos y cosas rotas",
+                "description": "Ned investiga la muerte de Jon Arryn en la capital.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                }
+            ]
+        },
+        {
+            "title": "Breaking Bad",
+            "year": "2008",
+            "rating": "TV-MA",
+            "quality": "4K Ultra HD",
+            "genre": "Crimen / Drama / Suspenso",
+            "tmdb": 1396,
+            "poster": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg",
+            "description": "Un profesor de química diagnosticado con cáncer se asocia con un exalumno para fabricar metanfetamina y asegurar el futuro de su familia.",
+            "episodes": [
+                {
+                "title": "T1:E1 - Piloto",
+                "description": "Walter White toma una decisión radical tras recibir un diagnóstico devastador.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                },
+                {
+                "title": "T1:E2 - El gato está en la bolsa...",
+                "description": "Walt y Jesse intentan limpiar el desastre de su primer negocio.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                },
+                {
+                "title": "T1:E3 - ...Y la bolsa en el río",
+                "description": "Walter enfrenta un difícil dilema moral.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+                }
+            ]
+        },
+        {
+            "title": "Crónicas del Futuro",
+            "year": "2024",
+            "rating": "TV-14",
+            "quality": "Full HD 1080p",
+            "genre": "Ciencia Ficción / Drama",
+            "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tears_of_Steel_poster.jpg/640px-Tears_of_Steel_poster.jpg",
+            "description": "Una saga épica donde la humanidad lucha por reconstruir la civilización tras la gran rebelión cibernética.",
+            "episodes": [
+                {
+                "title": "T1:E1 - El Despertar Cibernético",
+                "description": "Los primeros indicios de la rebelión comienzan en el centro de mando.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+                },
+                {
+                "title": "T1:E2 - Señales en la Niebla",
+                "description": "El equipo se infiltra en las ruinas buscando el transmisor maestro.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                }
+            ]
+        }
+    ]
+}

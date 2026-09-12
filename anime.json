@@ -1,0 +1,79 @@
+{
+    "anime": [
+        {
+            "title": "Demon Slayer: Kimetsu no Yaiba",
+            "year": "2019",
+            "rating": "TV-14",
+            "quality": "4K Ultra HD",
+            "genre": "Anime / Acción / Shonen",
+            "tmdb": 85937,
+            "poster": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+            "description": "Tanjiro Kamado emprende un arduo viaje para convertirse en un cazador de demonios y encontrar una cura para su hermana Nezuko.",
+            "episodes": [
+                {
+                "title": "Episodio 01 - Crueldad",
+                "description": "Tanjiro regresa a su hogar en la montaña y descubre una tragedia.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+                },
+                {
+                "title": "Episodio 02 - El entrenador Sakonji Urokodaki",
+                "description": "Tanjiro y Nezuko viajan al monte Sagiri en busca de un maestro.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                },
+                {
+                "title": "Episodio 03 - Sabito y Makomo",
+                "description": "Tanjiro enfrenta su desafío final de entrenamiento con la espada.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+                }
+            ]
+        },
+        {
+            "title": "Gachiakuta",
+            "year": "2024",
+            "rating": "TV-14",
+            "quality": "Full HD 1080p",
+            "genre": "Anime / Acción / Fantasía",
+            "tmdb": 256721,
+            "poster": "https://image.tmdb.org/t/p/w500/8c7M5Q1y22DqN1zZ9sO7P4x.jpg",
+            "description": "En una ciudad flotante donde la basura y los criminales son arrojados al abismo, Rudo es inculpado injustamente y sobrevive en el peligroso inframundo.",
+            "episodes": [
+                {
+                "title": "Episodio 01 - El Abismo Prohibido",
+                "description": "Rudo es sentenciado y arrojado al abismo de los desechos.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+                },
+                {
+                "title": "Episodio 02 - Los Limpiadores",
+                "description": "Encuentro con los guerreros que combaten a las bestias.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                },
+                {
+                "title": "Episodio 05 - Poder Oculto",
+                "description": "Rudo despierta la habilidad especial de su arma talismán.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+                }
+            ]
+        },
+        {
+            "title": "Sintel: Cazadores de Dragones",
+            "year": "2024",
+            "rating": "TV-14",
+            "quality": "Full HD 1080p",
+            "genre": "Anime / Acción / Aventura",
+            "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sintel_poster.jpg/640px-Sintel_poster.jpg",
+            "description": "Una guerrera entrenada en artes marciales ancestrales emprende la búsqueda del dragón dorado de las montañas prohibidas.",
+            "episodes": [
+                {
+                "title": "Episodio 01 - El Juramento de la Espada",
+                "description": "Sintel inicia su camino como espadachina.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+                },
+                {
+                "title": "Episodio 02 - La Ciudad del Desierto",
+                "description": "Llegada al oasis secreto y enfrentamiento con los bandidos.",
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+                }
+            ]
+        }
+    ]
+}
