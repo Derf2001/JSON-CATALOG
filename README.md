@@ -4,8 +4,8 @@ Catalogo de Peliculas, Series y Animes en formato JSON.
 
 ## Estructura
 
-El archivo `/catalog.json` contiene tres colecciones principales:
+El archivo `/catalog.json` contiene un objeto principal llamado `catalogo` con tres colecciones:
 
-- `peliculas`
-- `series`
-- `animes`
+- `catalogo.peliculas`
+- `catalogo.series`
+- `catalogo.animes`
