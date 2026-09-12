@@ -1,6 +1,6 @@
 # JSON-CATALOG
 
-Catalogo de Peliculas, Series y Animes en formato JSON.
+Catálogo de Películas, Series y Animes en formato JSON.
 
 ## Estructura
 
