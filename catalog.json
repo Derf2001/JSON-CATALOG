@@ -1,52 +1,291 @@
 {
-  "catalogo": {
-    "peliculas": [
-      {
-        "id": "pelicula-001",
-        "titulo": "Inception",
-        "genero": "Ciencia ficción",
-        "anio": 2010,
-        "duracionMinutos": 148
-      },
-      {
-        "id": "pelicula-002",
-        "titulo": "Interstellar",
-        "genero": "Aventura",
-        "anio": 2014,
-        "duracionMinutos": 169
-      }
-    ],
-    "series": [
-      {
-        "id": "serie-001",
-        "titulo": "Breaking Bad",
-        "genero": "Drama",
-        "anioInicio": 2008,
-        "temporadas": 5
-      },
-      {
-        "id": "serie-002",
-        "titulo": "Stranger Things",
-        "genero": "Ciencia ficción",
-        "anioInicio": 2016,
-        "temporadas": 4
-      }
-    ],
-    "animes": [
-      {
-        "id": "anime-001",
-        "titulo": "Attack on Titan",
-        "genero": "Acción",
-        "anioInicio": 2013,
-        "temporadas": 4
-      },
-      {
-        "id": "anime-002",
-        "titulo": "Demon Slayer",
-        "genero": "Fantasía",
-        "anioInicio": 2019,
-        "temporadas": 4
-      }
-    ]
-  }
+  "movies": [
+    {
+      "title": "Culpa Nuestra",
+      "year": "2025",
+      "rating": "TV-14",
+      "quality": "4K Ultra HD",
+      "genre": "Romance / Drama",
+      "tmdb": 1156594,
+      "poster": "https://image.tmdb.org/t/p/w500/6kmi6vmp6iOn4KzI7WfnVtAeJhU.jpg",
+      "description": "La esperada continuación de la historia de Noah y Nick. A pesar de los obstáculos familiares y la distancia, su amor se pone a prueba en nuevos horizontes.",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+    },
+    {
+      "title": "Avengers: Endgame",
+      "year": "2019",
+      "rating": "PG-13",
+      "quality": "4K Ultra HD",
+      "genre": "Acción / Ciencia Ficción",
+      "tmdb": 299534,
+      "poster": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "description": "Tras los devastadores eventos de Infinity War, los Vengadores restantes se reúnen una última vez para revertir el daño causado por Thanos y restaurar el orden en el universo.",
+      "url": "https://hugh.cdn.rumble.cloud/video/s8/2/j/K/2/f/jK2fq.aaa.mp4"
+    },
+    {
+      "title": "Avengers: Infinity War",
+      "year": "2018",
+      "rating": "PG-13",
+      "quality": "4K Ultra HD",
+      "genre": "Acción / Superhéroes",
+      "tmdb": 299536,
+      "poster": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "description": "Los Vengadores y sus aliados arriesgan todo en una batalla épica contra el poderoso Thanos antes de que logre reunir las seis Gemas del Infinito.",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+    },
+    {
+      "title": "Interstellar",
+      "year": "2014",
+      "rating": "PG-13",
+      "quality": "4K Ultra HD",
+      "genre": "Ciencia Ficción / Drama",
+      "tmdb": 157336,
+      "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "description": "Con el fin de la humanidad acercándose en la Tierra, un grupo de exploradores emprende la misión más importante de la historia humana: viajar más allá de nuestra galaxia.",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+    },
+    {
+      "title": "Inception (El Origen)",
+      "year": "2010",
+      "rating": "PG-13",
+      "quality": "Full HD 1080p",
+      "genre": "Acción / Suspenso",
+      "tmdb": 27205,
+      "poster": "https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg",
+      "description": "Dom Cobb es un ladrón experto en el peligroso arte de la extracción: robar valiosos secretos desde las profundidades del subconsciente durante el sueño.",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    },
+    {
+      "title": "Fight Club (El Club de la Pelea)",
+      "year": "1999",
+      "rating": "R",
+      "quality": "Full HD 1080p",
+      "genre": "Drama / Suspenso",
+      "tmdb": 550,
+      "poster": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+      "description": "Un hombre de oficina desilusionado que sufre de insomnio conoce a un misterioso fabricante de jabón y juntos forman un club de lucha clandestino.",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
+    {
+      "title": "Forrest Gump",
+      "year": "1994",
+      "rating": "PG-13",
+      "quality": "Full HD 1080p",
+      "genre": "Comedia / Drama",
+      "tmdb": 13,
+      "poster": "https://image.tmdb.org/t/p/w500/arw2VCBveWOVZr6pxd9XTd1TdQa.jpg",
+      "description": "Las décadas de vida de Forrest Gump, un hombre con un gran corazón de Alabama que presencia e influye en momentos históricos decisivos del siglo XX.",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+    },
+    {
+      "title": "Avengers: Era de Ultrón",
+      "year": "2015",
+      "rating": "PG-13",
+      "quality": "Full HD 1080p",
+      "genre": "Acción / Aventura",
+      "tmdb": 99861,
+      "poster": "https://image.tmdb.org/t/p/w500/4ssDuvEDkS9NvmR191urRILUv9v.jpg",
+      "description": "Cuando Tony Stark intenta reactivar un programa de mantenimiento de la paz, los héroes más poderosos de la Tierra deben detener al villano Ultrón.",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+    },
+    {
+      "title": "Sintel: The Dragon Girl",
+      "year": "2022",
+      "rating": "PG",
+      "quality": "Full HD 1080p",
+      "genre": "Fantasía / Aventura",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sintel_poster.jpg/640px-Sintel_poster.jpg",
+      "description": "Una joven solitaria rescata a un pequeño dragón herido y forja un vínculo inseparable, embarcándose en un peligroso viaje por tierras desconocidas.",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+    },
+    {
+      "title": "Tears of Steel",
+      "year": "2023",
+      "rating": "PG-13",
+      "quality": "4K Ultra HD",
+      "genre": "Ciencia Ficción / Acción",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tears_of_Steel_poster.jpg/640px-Tears_of_Steel_poster.jpg",
+      "description": "En un futuro distópico, un grupo de científicos y guerreros intenta rescatar el planeta de una invasión de robots cibernéticos.",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+    },
+    {
+      "title": "Big Buck Bunny",
+      "year": "2021",
+      "rating": "Todos",
+      "quality": "Full HD 1080p",
+      "genre": "Animación / Comedia",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/640px-Big_buck_bunny_poster_big.jpg",
+      "description": "Un adorable y enorme conejo decide darles una divertida lección a tres roedores traviesos que perturban la paz del bosque.",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
+    {
+      "title": "Elephant Dream",
+      "year": "2022",
+      "rating": "PG-13",
+      "quality": "Full HD 1080p",
+      "genre": "Ciencia Ficción / Misterio",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Elephants_Dream_poster.jpg/640px-Elephants_Dream_poster.jpg",
+      "description": "Dos personajes navegan a través de un mundo mecánico misterioso y surrealista lleno de enigmas e ilusiones.",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    }
+  ],
+  "series": [
+    {
+      "title": "Game of Thrones (Juego de Tronos)",
+      "year": "2011",
+      "rating": "TV-MA",
+      "quality": "4K Ultra HD",
+      "genre": "Fantasía / Drama / Aventura",
+      "tmdb": 1399,
+      "poster": "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
+      "description": "Nueve familias nobles luchan por el control de las tierras míticas de Poniente, mientras un antiguo enemigo regresa después de milenios.",
+      "episodes": [
+        {
+          "title": "T1:E1 - Se acerca el invierno",
+          "description": "Ned Stark recibe la propuesta del Rey Robert para convertirse en la Mano del Rey.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+        },
+        {
+          "title": "T1:E2 - El camino real",
+          "description": "Ned abandona Invernalia junto a sus hijas rumbo a Desembarco del Rey.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+        },
+        {
+          "title": "T1:E3 - Lord Nieve",
+          "description": "Jon Snow inicia su entrenamiento en el Muro con la Guardia de la Noche.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+        },
+        {
+          "title": "T1:E4 - Tullidos, bastardos y cosas rotas",
+          "description": "Ned investiga la muerte de Jon Arryn en la capital.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Breaking Bad",
+      "year": "2008",
+      "rating": "TV-MA",
+      "quality": "4K Ultra HD",
+      "genre": "Crimen / Drama / Suspenso",
+      "tmdb": 1396,
+      "poster": "https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg",
+      "description": "Un profesor de química diagnosticado con cáncer se asocia con un exalumno para fabricar metanfetamina y asegurar el futuro de su familia.",
+      "episodes": [
+        {
+          "title": "T1:E1 - Piloto",
+          "description": "Walter White toma una decisión radical tras recibir un diagnóstico devastador.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        },
+        {
+          "title": "T1:E2 - El gato está en la bolsa...",
+          "description": "Walt y Jesse intentan limpiar el desastre de su primer negocio.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+        },
+        {
+          "title": "T1:E3 - ...Y la bolsa en el río",
+          "description": "Walter enfrenta un difícil dilema moral.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Crónicas del Futuro",
+      "year": "2024",
+      "rating": "TV-14",
+      "quality": "Full HD 1080p",
+      "genre": "Ciencia Ficción / Drama",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tears_of_Steel_poster.jpg/640px-Tears_of_Steel_poster.jpg",
+      "description": "Una saga épica donde la humanidad lucha por reconstruir la civilización tras la gran rebelión cibernética.",
+      "episodes": [
+        {
+          "title": "T1:E1 - El Despertar Cibernético",
+          "description": "Los primeros indicios de la rebelión comienzan en el centro de mando.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+        },
+        {
+          "title": "T1:E2 - Señales en la Niebla",
+          "description": "El equipo se infiltra en las ruinas buscando el transmisor maestro.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+        }
+      ]
+    }
+  ],
+  "anime": [
+    {
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "year": "2019",
+      "rating": "TV-14",
+      "quality": "4K Ultra HD",
+      "genre": "Anime / Acción / Shonen",
+      "tmdb": 85937,
+      "poster": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+      "description": "Tanjiro Kamado emprende un arduo viaje para convertirse en un cazador de demonios y encontrar una cura para su hermana Nezuko.",
+      "episodes": [
+        {
+          "title": "Episodio 01 - Crueldad",
+          "description": "Tanjiro regresa a su hogar en la montaña y descubre una tragedia.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+        },
+        {
+          "title": "Episodio 02 - El entrenador Sakonji Urokodaki",
+          "description": "Tanjiro y Nezuko viajan al monte Sagiri en busca de un maestro.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+        },
+        {
+          "title": "Episodio 03 - Sabito y Makomo",
+          "description": "Tanjiro enfrenta su desafío final de entrenamiento con la espada.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Gachiakuta",
+      "year": "2024",
+      "rating": "TV-14",
+      "quality": "Full HD 1080p",
+      "genre": "Anime / Acción / Fantasía",
+      "tmdb": 256721,
+      "poster": "https://image.tmdb.org/t/p/w500/8c7M5Q1y22DqN1zZ9sO7P4x.jpg",
+      "description": "En una ciudad flotante donde la basura y los criminales son arrojados al abismo, Rudo es inculpado injustamente y sobrevive en el peligroso inframundo.",
+      "episodes": [
+        {
+          "title": "Episodio 01 - El Abismo Prohibido",
+          "description": "Rudo es sentenciado y arrojado al abismo de los desechos.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+        },
+        {
+          "title": "Episodio 02 - Los Limpiadores",
+          "description": "Encuentro con los guerreros que combaten a las bestias.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+        },
+        {
+          "title": "Episodio 05 - Poder Oculto",
+          "description": "Rudo despierta la habilidad especial de su arma talismán.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Sintel: Cazadores de Dragones",
+      "year": "2024",
+      "rating": "TV-14",
+      "quality": "Full HD 1080p",
+      "genre": "Anime / Acción / Aventura",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sintel_poster.jpg/640px-Sintel_poster.jpg",
+      "description": "Una guerrera entrenada en artes marciales ancestrales emprende la búsqueda del dragón dorado de las montañas prohibidas.",
+      "episodes": [
+        {
+          "title": "Episodio 01 - El Juramento de la Espada",
+          "description": "Sintel inicia su camino como espadachina.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+        },
+        {
+          "title": "Episodio 02 - La Ciudad del Desierto",
+          "description": "Llegada al oasis secreto y enfrentamiento con los bandidos.",
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+        }
+      ]
+    }
+  ]
 }
