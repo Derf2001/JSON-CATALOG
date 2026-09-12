@@ -1,0 +1,52 @@
+{
+  "catalogo": {
+    "peliculas": [
+      {
+        "id": "pelicula-001",
+        "titulo": "Inception",
+        "genero": "Ciencia ficción",
+        "anio": 2010,
+        "duracionMinutos": 148
+      },
+      {
+        "id": "pelicula-002",
+        "titulo": "Interstellar",
+        "genero": "Aventura",
+        "anio": 2014,
+        "duracionMinutos": 169
+      }
+    ],
+    "series": [
+      {
+        "id": "serie-001",
+        "titulo": "Breaking Bad",
+        "genero": "Drama",
+        "anioInicio": 2008,
+        "temporadas": 5
+      },
+      {
+        "id": "serie-002",
+        "titulo": "Stranger Things",
+        "genero": "Ciencia ficción",
+        "anioInicio": 2016,
+        "temporadas": 4
+      }
+    ],
+    "animes": [
+      {
+        "id": "anime-001",
+        "titulo": "Attack on Titan",
+        "genero": "Acción",
+        "anioInicio": 2013,
+        "temporadas": 4
+      },
+      {
+        "id": "anime-002",
+        "titulo": "Demon Slayer",
+        "genero": "Fantasía",
+        "anioInicio": 2019,
+        "temporadas": 4
+      }
+    ]
+  }
+}
